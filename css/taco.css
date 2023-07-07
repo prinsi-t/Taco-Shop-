@@ -1,0 +1,106 @@
+html{
+    font-size: 20px;
+    display: flex;
+}
+
+body{
+    margin-left: 5em;
+}
+
+
+
+th, td, caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+   
+}
+
+table{
+    margin-left: 1em;
+}
+
+#menu{
+    margin-left: 1em;
+}
+
+fieldset{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+img{
+    width: 70%;
+}
+
+nav ul li{
+    text-decoration: none;
+    font-size: 22px;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(41, 35, 39);
+}
+
+nav ul li a:hover{
+   color: rgb(119, 111, 4);
+
+}
+
+#about,.sick{
+    color: rgb(10, 117, 124);
+}
+
+
+main, #table{
+    background-color: rgb(226, 194, 152);
+}
+
+.top{
+    font-size: 20px;
+}
+
+
+@media all and (max-width: 600px){
+    fieldset,figure,h1,p,aside,article{
+        float: left;
+        width: 100%;
+        margin: 0;
+        margin: 0.5em 0.5em 0.5em 0;
+    }
+    p{
+        font-size: 15px;
+        margin-top: 2%;
+    }
+
+    #menu{
+        width: 50%;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    fieldset{
+        padding: 0;
+        padding-left: 1%;
+    }
+
+    img{
+        width: 80%;
+    }
+
+    body{
+        
+        margin: 0;
+        margin-left: 1em;
+    }
+
+    hr{
+        width: 90%;
+    }
+    
+}
+
+
