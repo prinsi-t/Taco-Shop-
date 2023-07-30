@@ -4,7 +4,9 @@ body{
 }
 
 h1{
+    width: 90%;
     background-color: rgb(217, 111, 129);
+    margin-left: 1em;
 }
 
 h4{
@@ -60,11 +62,15 @@ dl{
         width: 90%;
         margin-left: 0.5em;
     }
+    
+    nav ul li {
+        font-size: 20px;
+    }
 
     img{
-        width: 100%;
+        width: 340px;
         margin-top: 2em;
-        margin-left: 1em;
+        margin-left: 0.7em;
     }
 
     figcaption{
